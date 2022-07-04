@@ -1,0 +1,48 @@
+body{
+    font-family: 'Gulzar', serif;
+    margin: 0;
+
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+
+}
+p{
+    text-decoration: none;
+    text-align: justify;
+    line-height: 1.5;
+}
+.orange{
+    color: orangered;
+}
+section{
+    display: flex;
+}
+.half-width{ 
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 2%;
+
+}
+.half-width img{
+    width: 70%;
+    border-radius: 45%;
+    margin-left:20px;
+    margin-top:20px;
+   
+}
+.hire-me{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    padding: 1px 40px;
+    border-radius: 10%;
+    font-weight: 700;
+    color: aliceblue;
+}
+.header{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
